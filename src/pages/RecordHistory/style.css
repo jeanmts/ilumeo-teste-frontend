@@ -1,0 +1,76 @@
+.header-history {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.title-history {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #1E2733;
+    text-align: center;
+}
+
+.container-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spn-hourDate {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+    color: #FE8A00;
+}
+
+.user {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14.63px;
+    text-align: center;
+    color: #CFCFCFB0;
+}
+
+@media (max-width: 768px) {
+    .header-history {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .title-history {
+        font-size: 14px;
+    }
+
+    .spn-hourDate {
+        font-size: 12px;
+    }
+
+    .user {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-history {
+        padding: 0 5px;
+    }
+
+    .title-history {
+        font-size: 12px;
+    }
+
+    .spn-hourDate {
+        font-size: 11px;
+    }
+
+    .user {
+        font-size: 9px;
+    }
+}

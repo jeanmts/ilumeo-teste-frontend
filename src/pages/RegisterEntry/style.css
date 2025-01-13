@@ -1,0 +1,107 @@
+.header-registerEntry {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.title-registerEntry {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #1E2733;
+    text-align: center;
+}
+
+.container-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spn-hourDate {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+    color: #FE8A00;
+}
+
+.user {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14.63px;
+    text-align: center;
+    color: #CFCFCFB0;
+}
+
+.main-registerEntry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-registerEntry {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.spn-hourDate {
+    font-family: Montserrat;
+    font-size: 23.2px;
+    font-weight: 700;
+    line-height: 28.28px;
+    text-align: center;
+    color: #1E2733;
+}
+
+.currentTime {
+    font-family: Montserrat;
+    font-size: 11.6px;
+    font-weight: 700;
+    line-height: 14.14px;
+    text-align: center;
+    color: #CFCFCFB0;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .header-registerEntry {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .title-registerEntry {
+        font-size: 14px;
+    }
+
+    .spn-hourDate {
+        font-size: 16px;
+    }
+
+    .currentTime {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-registerEntry {
+        padding: 0 5px;
+    }
+
+    .title-registerEntry {
+        font-size: 12px;
+    }
+
+    .spn-hourDate {
+        font-size: 14px;
+    }
+
+    .currentTime {
+        font-size: 10px;
+    }
+}

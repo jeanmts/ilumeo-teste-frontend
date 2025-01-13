@@ -1,0 +1,68 @@
+.container-login {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.title-login {
+    font-family: Montserrat;
+    font-size: 21.52px;
+    font-weight: 400;
+    line-height: 26.23px;
+    color: #CFCFCF;
+    text-align: center;
+}
+
+.span-login {
+    font-family: Montserrat;
+    font-size: 21.52px;
+    font-weight: 800;
+    line-height: 26.23px;
+    text-align: center;
+    margin-left: 10px;
+    color: #1E2733;
+}
+
+.container-actions {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 24px;
+}
+
+.input-login {
+    all: unset;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 14.63px;
+    text-align: center;
+    height: 60px;
+    background-color: #1E2733;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .container-login {
+        max-width: 350px;
+    }
+
+    .input-login {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-login {
+        max-width: 90%;
+    }
+
+    .input-login {
+        font-size: 13px;
+        height: 50px;
+    }
+}
